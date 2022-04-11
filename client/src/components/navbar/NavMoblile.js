@@ -28,38 +28,23 @@ const NavMobile = () => {
         </div>
         <div className="brand">
           <Link to="/" onClick={() => setShowMenu(false)}>
-            <h1 className="alt-font">SUAY RESORTS</h1>
+            <h1 className="alt-font">Comfirt Rooms</h1>
           </Link>
         </div>
-        <Link to="/booking">
+        <div>
+          <Link to="/booking">
           <button className="btn">Booking</button>
+          </Link>
+        <Link to="/login">
+          <button className="btn">Login</button>
         </Link>
+        </div>
       </div>
       <div className={`menu-bottom ${showMenu && "show-menu"}`}>
         <ul>
           <li>
-            <div className="contact">
-              <i className="fas fa-phone-alt"></i>
-              <i className="fas fa-envelope"></i>
-              <i className="fab fa-instagram"></i>
-              <i className="fab fa-facebook-square"></i>
-            </div>
-          </li>
-          <li>
             <Link onClick={() => setShowMenu(false)} to="/rooms">
               Rooms
-            </Link>
-            <i className="fas fa-chevron-right"></i>
-          </li>
-          <li>
-            <Link onClick={() => setShowMenu(false)} to="/dining">
-              Dining{" "}
-            </Link>
-            <i className="fas fa-chevron-right"></i>
-          </li>
-          <li>
-            <Link onClick={() => setShowMenu(false)} to="/tours">
-              Tours{" "}
             </Link>
             <i className="fas fa-chevron-right"></i>
           </li>

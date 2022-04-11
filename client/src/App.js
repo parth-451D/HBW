@@ -17,9 +17,9 @@ import Confirm from "./components/booking/Confirm";
 import Auth from "./components/auth/Auth";
 import Existing from "./components/booking/Existing";
 import NoPage from "./components/pages/NoPage";
+import Bookings from "./components/auth/bookings/Bookings";
 const App = () => {
   const location = useLocation();
-  /* const history = useHistory(); */
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
@@ -44,6 +44,7 @@ const App = () => {
         <Route path="/booking/confirm" exact component={Confirm} />
         <Route path="/booking/existing" exact component={Existing} />
         <Route path="/admin" exact component={Auth} />
+        <Route path="/admin/booking" exact component={Bookings} />
         <Route path="*" exact component={NoPage} />
       </Switch>
       <Footer />

@@ -6,6 +6,7 @@ import bookingRoutes from "./routes/bookings.js";
 import roomRoutes from "./routes/rooms.js";
 import authRoutes from "./routes/auth.js";
 
+var CONNECTION_URL ="mongodb+srv://Parth:Naruto4501@cluster0.56u09.mongodb.net/test";
 const app = express();
 dotenv.config();
 
@@ -16,13 +17,13 @@ app.use(cors());
 app.use("/rooms", roomRoutes);
 app.use("/bookings", bookingRoutes);
 app.use("/auth", authRoutes);
-app.get("/", (req, res) => {
+app.get("#", (req, res) => {
   res.send("Hello to Suay Resort API");
 });
 const PORT = process.env.PORT || 5000;
 
 mongoose
-  .connect(process.env.CONNECTION_URL, {
+  .connect(CONNECTION_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

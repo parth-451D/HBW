@@ -14,18 +14,21 @@
   }
   &:hover {
     color: black;
-    background-color: white;
+    background-color: white ;
     transition: all ease 300ms;
 
     .btn {
       background-color: black;
       color: white;
+
     }
     .navTop {
       border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+      color: black;
     }
     .navBottom {
       color: rgb(82, 82, 82);
+
       a:hover {
         color: black;
       }
@@ -34,6 +37,7 @@
   .btn {
     background-color: white;
     color: black;
+    margin-right: 10px;
   }
   .navTop {
     display: flex;
@@ -48,10 +52,14 @@
       }
     }
   }
+  .sub-div{
+    margin-right: 1rem;
+  }
   .navBottom {
     text-align: center;
     font-size: 1.2rem;
     padding-top: 6px;
+    color: white;
     span {
       padding: 0 1rem;
       font-weight: bold;

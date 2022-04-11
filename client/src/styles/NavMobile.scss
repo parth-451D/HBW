@@ -11,7 +11,7 @@
   background-color: transparent;
   height: 5rem;
   width: 100%;
-  color: white;
+  color: black;
   z-index: 15;
   transition: all ease 300ms;
   .menu-top {
@@ -53,7 +53,7 @@
   color: black;
   background-color: white;
   transition: all ease 300ms;
-
+  
   .btn {
     background-color: black;
     color: white;
@@ -79,6 +79,7 @@
       color: black;
     }
   }
+  .btn{margin-right: 7px;}
 }
 .show-menu {
   left: 0 !important;
@@ -98,11 +99,14 @@
       border-bottom: 1px solid rgba(0, 0, 0, 0.288);
     }
   }
-}
+} 
 @media only screen and (max-width: 768px) {
   .NavMobile {
     display: block;
   }
+    .btn{
+      margin-right: 8px;
+    }
 }
 
 /* Mobile */
@@ -116,6 +120,7 @@
       }
       .btn {
         padding: 12px;
+        margin-right: 8px;
       }
     }
   }

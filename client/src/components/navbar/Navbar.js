@@ -19,30 +19,23 @@ const Navbar = () => {
   return (
     <div className={`Navbar ${header}`}>
       <div className="navTop">
-        <div className="contact">
-          <i className="fas fa-phone-alt"></i>
-          <i className="fas fa-envelope"></i>
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-facebook-square"></i>
-        </div>
         <div>
           <Link to="/">
-            <h1 className="alt-font">SUAY RESORTS</h1>
+            <h1 className="alt-font">Comfirt Rooms</h1>
           </Link>
         </div>
+        <div className="sub-div">
         <Link to="/booking">
           <button className="btn">Booking</button>
         </Link>
+        <Link to="/login">
+          <button className="btn">Login</button>
+        </Link>
+        </div>
       </div>
       <div className="navBottom">
         <Link to="/rooms">
           Rooms <span>&#183;</span>
-        </Link>
-        <Link to="/dining">
-          Dining <span>&#183;</span>{" "}
-        </Link>
-        <Link to="/tours">
-          Tours <span>&#183;</span>{" "}
         </Link>
         <Link to="/about">About</Link>
       </div>

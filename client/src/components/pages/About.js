@@ -4,7 +4,8 @@ import BookWidget from "../booking/BookWidget";
 const About = () => {
   return (
     <div className="About">
-      <header className='header-main'
+      <header
+        className="header-main"
         style={{
           background:
             ' no-repeat center/cover url("/img/about/about_header.jpg")',
@@ -12,51 +13,44 @@ const About = () => {
       >
         <div className="header-content">
           <h2 className="alt-font">About</h2>
-          <p>Learn about our family owned resort</p>
+          <p>Best user experience in our website</p>
         </div>
 
         <BookWidget />
       </header>
       <section className="desc">
-        <h1 className="alt-font">Suay Resort Phuket</h1>
+        <h1 className="alt-font">Comfirt Rooms</h1>
         <span></span>
-        <p>Get to know one of Thailand's best resort</p>
+        <p>Book comfirt rooms at affordable price</p>
       </section>
       <section className="desc_photo">
         <div className="descLeft">
-          <h1 className="alt-font">Only Local Ingredients</h1>
+          <h1 className="alt-font">About our webapp</h1>
           <p>
-            We use only locally sourced foods and ingredients grown here in
-            Phuket. We ensure that our farmers and our customers get full
-            satisfaction. We believe that by helping our local community grow we
-            can create a harmonized environment that everyone can enjoy.
+This is MERN project for booking the hotel rooms.
+which has been developed in frontend part in react and backend using node js and database is made of using MongoDB.
           </p>
         </div>
         <div className="descRight">
-          <img src="/img/about/about_farmer.jpg" alt="about_farmer" />
+          <img src="/img/about/about.jpg" alt="about_farmer" />
         </div>
       </section>
       <section className="testimonials">
         <h1 className="alt-font">Testimonials</h1>
         <article className="testimonials-card">
           <div className="img-container">
-            <img src="/img/about/about_fam_1.jpg" alt="family_testimonial_1" />
+            <img src="/img/about/about.jpg" alt="family_testimonial_1" />
           </div>
           <div className="quote-container">
             <p>
               <em>
-                "My Family and I came to Thailand for the first time and decided
-                to try the Suay Resort. We were totally refreshed and
-                rejuvenated for the whole of next year and it was due to the
-                relaxing stay at the resort. The resort is absolutely marvelous!
-                We liked absolutely everything, starting from the breakfast
-                through to the perfect room service including the cleanliness
-                and extra services such as dry cleaning and laundry. In general
-                all the staff at the hotel were professional, friendly and
-                provided excellent service. We will return for sure!"
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                architecto deserunt, facilis optio modi sapiente eum eveniet
+                molestias debitis, natus esse quidem nemo doloribus quaerat
+                reiciendis aut ipsam? Accusamus, consectetur!
               </em>
             </p>
-            <span>Smith Family, Minneapolis, USA</span>
+            <span>Lorem ipsum dolor sit amet consectetur.</span>
           </div>
         </article>
         <article className="testimonials-card reversed">
@@ -66,17 +60,14 @@ const About = () => {
           <div className="quote-container">
             <p>
               <em>
-                "We had been guests at the Suay Resort last weekend and we have
-                nothing but praises for the resort. We have had a great time.
-                and thats putting it mildly. The staff was extremely courteous,
-                and when I say this I don't just mean the managerial level. The
-                respect and the courtesy offered to us trickled down to the
-                waiters and the the watchmen and even the trainees. This place
-                was highly recommended to us by our friend, and true to his
-                word, this was indeed an unforgettable experience."
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus eius fuga molestias iusto minus facilis deleniti hic
+                aliquam sequi perspiciatis nihil praesentium eaque animi veniam
+                voluptate maiores, vel magnam ea, libero enim. Ad aperiam illo
+                unde vel iure maxime quo?
               </em>
             </p>
-            <span>Lopez Family, Los Angelas, USA</span>
+            <span>Lorem ipsum dolor sit amet consectetur.</span>
           </div>
         </article>
       </section>

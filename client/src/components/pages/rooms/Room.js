@@ -94,7 +94,7 @@ const Room = (props) => {
       <section className="desc_main">
         <article className="descLeft">
           <div className="bg-light"></div>
-          <h1 className="alt-font">PHUKET IS CALLING</h1>
+          <h1 className="alt-font">{room.title}</h1>
           <p>
             Welcome back to our oceanside resort, in the heart of Phuket's
             bustling, breathtaking city. Nestled between the dramatic peaks of
@@ -102,7 +102,7 @@ const Room = (props) => {
             leisurely days by glistening pools or basked in relaxation at our
             spa, and balmy evenings sampling local flavours at our exquisite
             restaurants, Nobu, Vista Bar & Lounge and Isola. Let us show you
-            another side to Phuket. Here&Now.
+            another side to Phuket. Here & Now.
           </p>
         </article>
         <div className="descRight">
